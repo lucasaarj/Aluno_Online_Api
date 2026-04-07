@@ -69,6 +69,11 @@ As camadas do projeto estão divididas da seguinte forma:
 
 > **Nota de Tratamento de Erros:** Nos métodos de atualização (PUT), caso o `id` fornecido não exista no banco de dados, a API foi construída para lançar uma exceção de status `404 NOT FOUND`.
 
+
+### Print relacionado ao banco de dados dbeaver com as tabelas: professor e aluno.
+<img width="1366" height="768" alt="image1" src="https://github.com/user-attachments/assets/3eb1b7d2-f6f1-4244-a5c7-fb0416a8ed08" />
+
+
 ---
 
 
