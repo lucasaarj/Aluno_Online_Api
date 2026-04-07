@@ -1,8 +1,4 @@
-/**
- * Esta classe ficam as regras de negócio
- * 
- * Acontece a lógica de: validações, cálculos, decisões. 
- */
+
 package br.com.alunoonline.api.service;
 
 import br.com.alunoonline.api.model.Aluno;  
@@ -14,10 +10,10 @@ import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.web.server.ResponseStatusException;
 
-@Service // Esta Classe é um Service
+@Service 
 public class AlunoService {
     
-    @Autowired // Usado para injeção de dependência.
+    @Autowired  
     AlunoRepository alunoRepository;
 
     // CREATE -> POST -> Salvar Novo Aluno
