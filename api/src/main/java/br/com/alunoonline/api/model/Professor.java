@@ -13,17 +13,16 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@NoArgsConstructor // Gera o contrutor vazio -> Evita código repetitivo (boilerplate)
+@NoArgsConstructor 
 
-@AllArgsConstructor // Gera o construtor com todos os campos
+@AllArgsConstructor 
 
-@Data // Gera os getters, Setters, ToString (Transformar o objeto em texto), equals (Serve para comparar dois objetos pelo conteúdo, não pela referência)
+@Data 
+@Table(name = "professor")
 
-@Table(name = "professor") // Nome da tabela no banco de dados
-
-@Entity // "Esta classe é uma tabela no banco de dados!"
+@Entity 
 public class Professor {
-    @Id // Campo é a chave primária
+    @Id // Chave primária
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
