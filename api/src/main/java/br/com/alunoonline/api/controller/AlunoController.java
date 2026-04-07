@@ -1,6 +1,4 @@
-/**
- * O controller serve para endpoints REST. Ele recebe as requisições HTTP (GET, POST, PUT, DELETE), chama o Service apropriado, e devolve a resposta. É aqui que definimos as URLs (endpoints) da API.
- */
+
 package br.com.alunoonline.api.controller;
 
 import br.com.alunoonline.api.model.Aluno;
@@ -13,7 +11,6 @@ import java.util.Optional;
 
 @RestController
 
-// @RequestMapping no Spring Framework serve para mapear requisições HTTP (da web) para classes ou métodos específicos do seu Controller.
 
 @RequestMapping("/alunos")  // URL base: /alunos 
 public class AlunoController {
